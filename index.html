@@ -49,6 +49,21 @@
       border-left: 4px solid #f5a623;
       color: #ffffff;
     }
+    .devam-btn {
+  background-color: #f5a623;  /* Turuncu arka plan */
+  color: #fff;                /* Beyaz yazı */
+  border: none;               /* Kenarlık yok */
+  padding: 12px 24px;         /* İç boşluk */
+  font-size: 16px;            /* Yazı boyutu */
+  font-weight: bold;          /* Kalın yazı */
+  cursor: pointer;            /* El simgesi */
+  border-radius: 5px;         /* Yuvarlatılmış köşeler */
+  transition: background 0.3s ease;
+}
+
+.devam-btn:hover {
+  background-color: #d48a1c;  /* Hover efekti için daha koyu turuncu */
+}
     footer {
       text-align: center;
       padding: 20px;
@@ -87,7 +102,13 @@
     <p>Bugün hâlâ bir baltaya sap olamadığımı söylüyorlar. Hâlâ eksik, hâlâ yetersiz. Ama artık umursamıyorum. Çünkü ben dışarıdan görünen bir hikâyeden çok daha fazlasıyım...</p>
     <blockquote>"Bazı insanlar kaybolmaz. Sadece derinlere çekilir. Ve orada, karanlığın içinde kendini bulur."</blockquote>
     <p>Evet, kaybolmuş gibi görünüyorum. Ama bu, benim hikâyem. Ve bu hikâye, yaralarımın arasında yazılıyor. Belki de o yaralar, beni beni ben yapan şeydir.</p>
-    <blockquote>"Eğer bu kitabı okumaya başlarsan, artık kimseye aynı gözle bakamayacaksın!"</blockquote>
+    <blockquote>
+  "Eğer bu kitabı okumaya başlarsan, artık kimseye aynı gözle bakamayacaksın!"
+  <br><br>
+  <button class="devam-btn" onclick="window.open('https://www.ornekwebsitesi.com', '_blank')">
+    Devam Et
+  </button>
+</blockquote>
   </div>
   <footer>© 2024 - İsmail Hakkı Acay</footer>
 </body>
